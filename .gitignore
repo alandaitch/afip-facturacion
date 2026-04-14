@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+certs/
+*.key
+*.crt
+*.csr
+emisor_config.json
+facturas_log.json
+token_cache.json
+factura_*.pdf
+.DS_Store
