@@ -4,12 +4,18 @@ Skill de [Claude Code](https://claude.com/claude-code) para emitir **Factura C**
 
 Pensado para monotributistas que quieren facturar desde la terminal con un comando, sin depender de webapps de terceros ni del portal de ARCA.
 
-## ⚠️ Proyecto personal, sin mantenimiento activo
+## ⚠️ Leé esto antes de usarlo
 
-Lo comparto por si le sirve a otra persona. No tengo capacidad de responder issues, revisar PRs ni garantizar que funcione en tu setup. Forkealo y adaptalo como necesites.
+**Esto es algo que hice para mí y comparto "as-is" por si le sirve a alguien más.** No es un producto, no es un servicio, no es software mantenido. Es un script personal publicado en público.
 
-- **Sin garantías.** Emitir una factura electrónica es un acto fiscal irreversible. Probá siempre primero en homologación (`AFIP_ENV=homo`) y verificá los resultados contra tu situación tributaria.
-- **No soy contador.** El skill genera comprobantes técnicamente válidos contra los WS de AFIP; la responsabilidad fiscal es del emisor.
+- **No tiene mantenimiento.** No voy a responder issues, no voy a revisar pull requests, no voy a contestar preguntas. Si algo no funciona en tu setup, estás solo — forkealo, adaptalo, rompelo, mejoralo. Esa es toda la interacción que existe.
+- **Puede fallar.** AFIP cambia formatos, endpoints, reglas de validación y servicios sin aviso. Algo que funciona hoy puede dejar de funcionar mañana y yo no lo voy a arreglar.
+- **Puede tener bugs.** No está testeado exhaustivamente. Puede generar comprobantes incorrectos, calcular mal, o romper de formas que no anticipé.
+- **Sin garantías de ningún tipo.** Ver [LICENSE](LICENSE): el software se provee "AS IS", sin garantía de funcionamiento, idoneidad, ni ausencia de errores. El autor no es responsable de ningún daño derivado de su uso.
+- **Emitir facturas es irreversible y tiene consecuencias fiscales.** Un CAE emitido queda registrado en AFIP; anular requiere nota de crédito. Probá SIEMPRE primero en homologación (`AFIP_ENV=homo`) antes de apuntar a producción. La responsabilidad fiscal de lo que emitas es 100% tuya.
+- **No soy contador ni asesor fiscal.** El skill es solo una herramienta técnica contra los web services de AFIP. Si no entendés qué es un CAE, qué implica emitir Factura C, o cómo tributa tu actividad, consultá con tu contador antes de correr cualquier cosa de acá.
+
+Si después de leer todo esto querés usarlo igual, adelante. Pero el trato es: **lo usás bajo tu propio riesgo, sin expectativa de soporte de mi parte**.
 
 ## Qué hace
 
