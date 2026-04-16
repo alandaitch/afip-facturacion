@@ -6,7 +6,7 @@ Pensado para monotributistas que quieren facturar desde la terminal con un coman
 
 ## ⚠️ Leé esto antes de usarlo
 
-**Esto es algo que hice para mí y comparto "as-is" por si le sirve a alguien más.** No es un producto, no es un servicio, no es software mantenido. Es un script personal publicado en público.
+**Esto es algo que hice para mí y comparto "as-is" por si le sirve a alguien más.** No es un producto, no es un servicio, no es software mantenido. Es un script personal publicado como prueba de concepto para demostrar el potencial de Claude Code.
 
 - **No tiene mantenimiento.** No voy a responder issues, no voy a revisar pull requests, no voy a contestar preguntas. Si algo no funciona en tu setup, estás solo — forkealo, adaptalo, rompelo, mejoralo. Esa es toda la interacción que existe.
 - **Puede fallar.** AFIP cambia formatos, endpoints, reglas de validación y servicios sin aviso. Algo que funciona hoy puede dejar de funcionar mañana y yo no lo voy a arreglar.
